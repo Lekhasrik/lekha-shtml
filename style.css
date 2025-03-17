@@ -1,0 +1,46 @@
+.container{
+    border:5px solid black;
+    border-radius:5px ; /*to curve the boder */
+    padding: 10px;
+    display: flex;
+    
+    
+}
+.left{
+    
+    height: 1000px;
+    flex-wrap: wrap;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    place-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0;
+
+}
+.right img{
+    /*flex:1;*/
+    justify-content: flex-end;
+    background-size: cover;
+    height: 100px;
+    width: 1000px;
+    height: 1000px;
+    flex-wrap: wrap;
+    object-fit: cover;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+.con{
+    display: flex;
+    height: 100vh; /* Ensures full-screen height */
+    align-items: stretch; /* Stretches both sides */
+}
